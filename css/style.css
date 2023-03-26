@@ -1,0 +1,118 @@
+body{
+
+
+
+
+background: #FFF9E7;
+}
+a{
+    text-decoration: none;
+}
+.head{
+    display: block;
+    background-color: #FFF0E4;
+    padding: 1rem!important;
+    
+}
+.Bookbest{
+    font-family: 'Jost', sans-serif;
+    color: #484848;
+    font-size: 28px;
+    padding-top: 20px;
+}
+.block-book{
+    background-color: #fff;
+    display: block;
+}
+.add-favorite{
+    display: flex;
+    cursor: pointer;
+
+}
+.buy-favorite{
+    display: flex;
+    padding-top: 10px;
+    
+    
+}
+.card-top{
+    
+}
+.card-book{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 30px;
+    gap: 10px;
+    
+    width: 202px;
+    height: 336px;
+    
+    background: linear-gradient(180deg, #FFA552 0%, rgba(255, 200, 114, 0.459375) 50%, rgba(255, 219, 112, 0) 100%);
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.5));
+    border-radius: 20px;
+
+}
+.card-add{
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    font-family: "Jost", sans-serif;
+    font-style: normal  ;
+    font-weight: 700;
+    text-align: center;
+    font-size: 16px;
+    color: #484848;
+    width: 110px;
+
+}
+.card-add:hover{
+    color: white;
+    background-color: #A15D1E;
+    transition: 0.3s;
+}
+.name-book{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 17px;
+color: #A15D1E;
+padding-top: 10px;
+}
+.name-author{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 17px;
+    color: #A15D1E;   
+}
+.card-favorite{
+    cursor: pointer;
+}
+.name-book{
+    font-family: "Jost", sans-serif;
+}
+.link-book-author{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    padding-top: 10px;
+    font-size: 16px;
+    line-height: 17px;
+    color: #A15D1E;   
+    text-decoration: none;
+}
+.link-book{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 17px;
+color: #A15D1E;
+padding-top: 10px;
+text-decoration: none;
+}
+
