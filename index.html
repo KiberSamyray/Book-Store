@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-admin-panel.css" rel="stylesheet">
     <link href="js/bootstrap.min.js">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Secular+One&family=Source+Sans+Pro:wght@200;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-    <title>Document</title>
+    <title>Book Store</title>
 </head>
 <body>
     
@@ -21,11 +22,8 @@
                 <a href="/" class="d-flex align-items-center mb-2 mb-lg-0  text-decoration-none logo-text">
                     Book Store
                 </a>
-        
-                
-        
                 <form class="col-md-6 mx-auto">
-                  <input type="search" class="form-control" placeholder="Введите название книги или автора" aria-label="Search">
+                  <input type="search" class="form-search" placeholder="Введите название книги или автора" aria-label="Search">
                 </form>
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 mx-auto">
           <li><a href="#" class="nav-link px-2 link-color">О нас</a></li>
@@ -44,7 +42,7 @@
               </div>
         </div>
     </header>
-    <div class="container">
+    <div class="container b-body">
         <div class="row">
             <div class="col">
                 <h1 class="Bookbest , px-5">Лучшие книги</h1>
@@ -482,53 +480,54 @@
      </div>
  </div>
  </div>
- <div class="container">
-    <footer class="row row-cols-5 py-5 my-5 border-top bc-header">
-      <div class="col">
-        <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
-          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-        </a>
-        <p class="text-muted">© 2021</p>
-      </div>
-  
-      <div class="col">
-  
-      </div>
-  
-      <div class="col">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-        </ul>
-      </div>
-  
-      <div class="col">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-        </ul>
-      </div>
-  
-      <div class="col">
-        <h5>Section</h5>
-        <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
-        </ul>
-      </div>
-    </footer>
-  </div>
+ <footer class="bc-footer pt-4 pb-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md">
+                <ul class="ul-style">
+                <li class="mb-3"><a href="#" class="link-color-footer nav-link">Издательствам</a></li>
+                <li class="mb-3"><a href="#" class="link-color-footer nav-link">Авторам</a></li>
+                <li class="mb-3"><a href="#" class="link-color-footer nav-link">Библиотекам</a></li>
+                <li class="mb-3"><a href="#" class="link-color-footer nav-link">Партнёрам</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <ul class="ul-style">
+                <li class="mb-3"><a href="#" class="link-color-footer nav-link">Наши партнёры</a></li>
+                <li class="mb-3"><a href="#" class="link-color-footer nav-link">Сотрудничество</a></li>
+                <li class="mb-3"><a href="#" class="link-color-footer nav-link">Возврат товара</a></li>
+                <li class="mb-3"><a href="#" class="link-color-footer nav-link">Связаться с нами</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-md">
+                <ul class="ul-style">
+                <li class="mb-3"><a href="#" class="link-color-footer nav-link">Доставка и оплата</a></li>
+                <li class="mb-3"><a href="#" class="link-color-footer nav-link">Вопросы и ответы</a></li>
+                <li class="mb-3"><a href="#" class="link-color-footer nav-link">Бонусная программа</a></li>
+                <li class="mb-3"><a href="#" class="link-color-footer nav-link">Акции</a></li>
+                </ul>
+            </div>
+            
+            <div class="col-6 col-md text-center">
+                <ul class="ul-style">
+                <li class="mb-3"><p class="p-color-footer">Мы в соц.сетях</p></li>
+                <li class="mb-3"><a href="#" class="link-color-footer-icon nav-link"><i class="bi bi-telegram bi-telegram-size"></i></a></li>
+                <li class="mb-3"><a href="#" class="link-color-footer-icon nav-link"><i class="bi bi-youtube"></i></a></li>
+                <li class="mb-3"><a href="#" class="link-color-footer-icon nav-link"><i class="bi bi-pinterest"></i></a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="col text-center">
+                <p class="text-p-footer"><i class="bi bi-c-circle px-2"></i>Book Store 2022</p>
+        </div>
+       
+    </div>
+        
+    </div>
+    
+ </footer>
    
   
 </body>

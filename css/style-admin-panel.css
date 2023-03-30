@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.p-admin{
+
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 26px;
+}
+.button-admin{
+    cursor: pointer;
+    color: white;
+    background: #A15D1E;
+    border: 4px solid #A15D1E;
+    border-radius: 20px;
+}
+.pb-footer-admin{
+    position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 80px;
+}
+.button-admin:hover{
+
+}
+.search-result{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+color: #484848;
+
+}
