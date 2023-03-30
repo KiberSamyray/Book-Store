@@ -1,7 +1,8 @@
 body{
 
-
-
+height: auto;
+margin: 0;
+padding:  0;
 
 background: #FFF9E7;
 }
@@ -118,4 +119,34 @@ text-decoration: none;
 }
 .pdt{
  padding-top: 50px;
+}
+.bc-header{
+    background: #FFF0E4;
+}
+.link-footer{
+    font-size: 14px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    color: #fff;
+
+}
+.logo-text{
+font-family: 'Secular One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+color: #A15D1E;
+
+}
+.link-color{
+font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+
+color: #484848;
+}
+.link-color:hover{
+    color: #A15D1E;
 }

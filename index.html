@@ -10,19 +10,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Secular+One&family=Source+Sans+Pro:wght@200;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <title>Document</title>
 </head>
 <body>
-    <header class="head">
+    
+    <header class="p-3 mb-3 bc-header">
         <div class="container">
             <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-                <a class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none" href="#">
-                   Book Store
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0  text-decoration-none logo-text">
+                    Book Store
                 </a>
+        
                 
+        
+                <form class="col-md-6 mx-auto">
+                  <input type="search" class="form-control" placeholder="Введите название книги или автора" aria-label="Search">
+                </form>
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 mx-auto">
+          <li><a href="#" class="nav-link px-2 link-color">О нас</a></li>
+          <li><a href="#" class="nav-link px-2 link-color">Контакты</a></li>
+          <li><a href="#" class="nav-link px-2 link-color">Доставка</a></li>
+          <li><a href="#" class="d-block link-dark text-decoration-none px-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+              </svg>
+          </a></li>
+          <li><a href="#" class="d-block link-dark text-decoration-none px-2">
+            <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle ">
+          </a></li>
+        </ul>
                 
+              </div>
+        </div>
     </header>
-    
     <div class="container">
         <div class="row">
             <div class="col">
@@ -317,7 +338,198 @@
     <div class="col">
         <h1 class="Bookbest , px-5">Популярное</h1>
     </div>
-</div>
+    
+    </div>
+    <div class="row , px-5">
+        <div class="col">
+         <div class="card-book">
+             <div class="card-top">
+                 <a href="#" class="card_image">
+                     <img src="Image/image 2 (1).png" alt="Сгорая дотла">
+                 </a>    
+             </div>
+             <div class="card-bottom">
+                 <div class="name-book">
+                         <a href="#" class="link-book">Сгорая дотла</a>
+                 </div>
+                 <div class="name-author">
+                    <a href="#" class="link-book-author"> Эмма Скот</a>
+                 </div>
+                 <div class="buy-favorite"> <button class="card-add">Купить</button>
+                     <div onclick="#" class="card-favorite">
+                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                             <path d="M13.5241 24.6678L13.5234 24.6671C10.2948 21.7394 7.65515 19.342 5.81682 17.0929C3.98398 14.8506 3 12.8169 3 10.625C3 7.03924 5.80055 4.25 9.375 4.25C11.3988 4.25 13.3496 5.19473 14.6206 6.67564L15 7.11771L15.3794 6.67564C16.6504 5.19473 18.6012 4.25 20.625 4.25C24.1995 4.25 27 7.03924 27 10.625C27 12.8169 26.016 14.8506 24.1832 17.0929C22.3448 19.342 19.7052 21.7394 16.4766 24.6671L16.4759 24.6678L15 26.0113L13.5241 24.6678Z" fill="none" stroke="#A15D1E"></path>
+                             <rect x="0.5" y="0.5" width="29" height="29" stroke="none"></rect>
+                             </svg>
+                             
+                     </div>
+                 </div>
+                
+             </div>
+         </div>
+        
+        </div>  
+        <div class="col">
+         <div class="card-book">
+             <div class="card-top">
+                 <a href="#" class="card_image">
+                     <img src="Image/image 2 (1).png" alt="Сгорая дотла">
+                 </a>    
+             </div>
+             <div class="card-bottom">
+                 <div class="name-book">
+                         <a href="#" class="link-book">Сгорая дотла</a>
+                 </div>
+                 <div class="name-author">
+                    <a href="#" class="link-book-author"> Эмма Скот</a>
+                 </div>
+                 <div class="buy-favorite"> <button class="card-add">Купить</button>
+                     <div onclick="#" class="card-favorite">
+                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                             <path d="M13.5241 24.6678L13.5234 24.6671C10.2948 21.7394 7.65515 19.342 5.81682 17.0929C3.98398 14.8506 3 12.8169 3 10.625C3 7.03924 5.80055 4.25 9.375 4.25C11.3988 4.25 13.3496 5.19473 14.6206 6.67564L15 7.11771L15.3794 6.67564C16.6504 5.19473 18.6012 4.25 20.625 4.25C24.1995 4.25 27 7.03924 27 10.625C27 12.8169 26.016 14.8506 24.1832 17.0929C22.3448 19.342 19.7052 21.7394 16.4766 24.6671L16.4759 24.6678L15 26.0113L13.5241 24.6678Z" fill="none" stroke="#A15D1E"></path>
+                             <rect x="0.5" y="0.5" width="29" height="29" stroke="none"></rect>
+                             </svg>
+                             
+                     </div>
+                 </div>
+                
+             </div>
+         </div>
+        
+        </div>  
+        <div class="col">
+         <div class="card-book">
+             <div class="card-top">
+                 <a href="#" class="card_image">
+                     <img src="Image/image 2 (1).png" alt="Сгорая дотла">
+                 </a>    
+             </div>
+             <div class="card-bottom">
+                 <div class="name-book">
+                         <a href="#" class="link-book">Сгорая дотла</a>
+                 </div>
+                 <div class="name-author">
+                    <a href="#" class="link-book-author"> Эмма Скот</a>
+                 </div>
+                 <div class="buy-favorite"> <button class="card-add">Купить</button>
+                     <div onclick="#" class="card-favorite">
+                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                             <path d="M13.5241 24.6678L13.5234 24.6671C10.2948 21.7394 7.65515 19.342 5.81682 17.0929C3.98398 14.8506 3 12.8169 3 10.625C3 7.03924 5.80055 4.25 9.375 4.25C11.3988 4.25 13.3496 5.19473 14.6206 6.67564L15 7.11771L15.3794 6.67564C16.6504 5.19473 18.6012 4.25 20.625 4.25C24.1995 4.25 27 7.03924 27 10.625C27 12.8169 26.016 14.8506 24.1832 17.0929C22.3448 19.342 19.7052 21.7394 16.4766 24.6671L16.4759 24.6678L15 26.0113L13.5241 24.6678Z" fill="none" stroke="#A15D1E"></path>
+                             <rect x="0.5" y="0.5" width="29" height="29" stroke="none"></rect>
+                             </svg>
+                             
+                     </div>
+                 </div>
+                
+             </div>
+         </div>
+        
+        </div>  
+        <div class="col">
+         <div class="card-book">
+             <div class="card-top">
+                 <a href="#" class="card_image">
+                     <img src="Image/image 2 (1).png" alt="Сгорая дотла">
+                 </a>    
+             </div>
+             <div class="card-bottom">
+                 <div class="name-book">
+                         <a href="#" class="link-book">Сгорая дотла</a>
+                 </div>
+                 <div class="name-author">
+                    <a href="#" class="link-book-author"> Эмма Скот</a>
+                 </div>
+                 <div class="buy-favorite"> <button class="card-add">Купить</button>
+                     <div onclick="#" class="card-favorite">
+                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                             <path d="M13.5241 24.6678L13.5234 24.6671C10.2948 21.7394 7.65515 19.342 5.81682 17.0929C3.98398 14.8506 3 12.8169 3 10.625C3 7.03924 5.80055 4.25 9.375 4.25C11.3988 4.25 13.3496 5.19473 14.6206 6.67564L15 7.11771L15.3794 6.67564C16.6504 5.19473 18.6012 4.25 20.625 4.25C24.1995 4.25 27 7.03924 27 10.625C27 12.8169 26.016 14.8506 24.1832 17.0929C22.3448 19.342 19.7052 21.7394 16.4766 24.6671L16.4759 24.6678L15 26.0113L13.5241 24.6678Z" fill="none" stroke="#A15D1E"></path>
+                             <rect x="0.5" y="0.5" width="29" height="29" stroke="none"></rect>
+                             </svg>
+                             
+                     </div>
+                 </div>
+                
+             </div>
+         </div>
+        
+        </div>  
+        <div class="col">
+         <div class="card-book">
+             <div class="card-top">
+                 <a href="#" class="card_image">
+                     <img src="Image/image 2 (1).png" alt="Сгорая дотла">
+                 </a>    
+             </div>
+             <div class="card-bottom">
+                 <div class="name-book">
+                         <a href="#" class="link-book">Сгорая дотла</a>
+                 </div>
+                 <div class="name-author">
+                    <a href="#" class="link-book-author"> Эмма Скот</a>
+                 </div>
+                 <div class="buy-favorite"> <button class="card-add">Купить</button>
+                     <div onclick="#" class="card-favorite">
+                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                             <path d="M13.5241 24.6678L13.5234 24.6671C10.2948 21.7394 7.65515 19.342 5.81682 17.0929C3.98398 14.8506 3 12.8169 3 10.625C3 7.03924 5.80055 4.25 9.375 4.25C11.3988 4.25 13.3496 5.19473 14.6206 6.67564L15 7.11771L15.3794 6.67564C16.6504 5.19473 18.6012 4.25 20.625 4.25C24.1995 4.25 27 7.03924 27 10.625C27 12.8169 26.016 14.8506 24.1832 17.0929C22.3448 19.342 19.7052 21.7394 16.4766 24.6671L16.4759 24.6678L15 26.0113L13.5241 24.6678Z" fill="none" stroke="#A15D1E"></path>
+                             <rect x="0.5" y="0.5" width="29" height="29" stroke="none"></rect>
+                             </svg>
+                             
+                     </div>
+                 </div>
+                
+             </div>
+         </div>
+     </div>
  </div>
+ </div>
+ <div class="container">
+    <footer class="row row-cols-5 py-5 my-5 border-top bc-header">
+      <div class="col">
+        <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        </a>
+        <p class="text-muted">© 2021</p>
+      </div>
+  
+      <div class="col">
+  
+      </div>
+  
+      <div class="col">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+        </ul>
+      </div>
+  
+      <div class="col">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+        </ul>
+      </div>
+  
+      <div class="col">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+   
+  
 </body>
 </html>
